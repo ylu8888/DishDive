@@ -18,15 +18,15 @@ const App = () => {
     getRecipes();   
   }, [query]); 
 
-  //async operations are important for handling tasks that take time to complete such as fetching API Data, it allows other parts of code to 
-  //continue executing while async task is being processed, this reduces overall processing time and maintains a responsive user experience
-  // 'async' keyword marks function as asynchronous, allowing use of 'await' keyword, which pauses execution of function until promise is resolved
+  /*async operations are important for handling tasks that take time to complete such as fetching API Data, it allows other parts of code to 
+  continue executing while async task is being processed, this reduces overall processing time and maintains a responsive user experience
+  'async' keyword marks function as asynchronous, allowing use of 'await' keyword, which pauses execution of function until promise is resolved*/
   const getRecipes = async () => { //'await' promise in this case: fetching response from API, NOTE*: doesn't pause the entire JS code, only this function
     const response = await fetch( //fetches recipes from API based on query state. Fetch sends a GET request to API endpoint 
       `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}` //query, APP_ID, APP_KEY are parameters of GET request
     );
     const data = await response.json();  //response is converted to JSON format 
-    setRecipes(data.hits); //Retried recipe data is stored in recipes
+    setRecipes(data.hits); //Retrieved recipe data is stored in recipes
     console.log(data.hits);
   };
 
