@@ -10,7 +10,7 @@ Implemented asynchronous API calls (async/await) and Hooks (State/Effect) to ena
 
 Used ReactJS, HTML, Javascript (JSX), CSS modules to create a fully responsive page & deployed to Netlify
 
-
+https://www.loom.com/share/dd9b9d738a7f4ace8c0ce939a3863973
 
 
 
