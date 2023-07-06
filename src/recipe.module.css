@@ -25,7 +25,7 @@
     
     font-size: 30px;
     font-weight: bold;
-    background-color: #e3a5d2;
+    background-color: #8e76c6;
     margin: 0; 
     padding: 0; 
     width: 100%;
@@ -56,12 +56,12 @@
 }
 
 .readme{
-    width: 700px;
+    width: 600px;
     font-size: 20px;
     display: flex; 
     align-items: center; 
     justify-content: center;
-    transform: translateX(50px);
+    transform: translateX(82px);
 }
 
 

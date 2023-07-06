@@ -1,7 +1,7 @@
 .App{
   min-height: 100vh;
   font-family: Times New Roman;
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(to bottom, #a18cd1 0%, #fbc2eb 100%);
 }
 
 .searchform{
@@ -19,23 +19,23 @@
   padding: 10px;
   font-size: 16px;
   border-radius: 18px 0 0 18px;
-  border: 2px solid #f197dc;
+  border: 2px solid #8e76c6;
   text-align: center;
   
 }
 
 .searchbutton{
-  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+  background-color: #a58ddc;
   border: none;
   padding: 10px 20px;
   color: black;
   height: 48px;
   border-radius: 0 18px 18px 0;
-  border: 2px solid #f197dc;
+  border: 2px solid #8e76c6;
 }
 
 button:hover {
-  background-color: #ac198a;
+  background-color: rgb(221, 164, 235);
   color: white;
 }
 
