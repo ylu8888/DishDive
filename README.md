@@ -1,6 +1,6 @@
 # DishDive https://dishdive.netlify.app/
 
-Dish Dive is a web app that searches for the ingredients for tens of thousands of different recipes around the world using the Edamam Search API.
+Dish Dive is a web app that searches for the ingredients for millions of different recipes around the world using the Edamam Search API.
 
 Purpose of project: To get familiar with ReactJS and accessing data from APIs
 
