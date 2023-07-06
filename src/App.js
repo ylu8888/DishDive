@@ -1,6 +1,7 @@
 import React,{useEffect, useState} from "react";
 import Recipe from'./Recipe';
 import Title from './Title';
+import Footer from './Footer';
 import './App.css';
 
 const App = () => {
