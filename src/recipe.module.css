@@ -9,6 +9,7 @@
     background: white;
     align-items: center;
     min-width: 50%;
+    flex-wrap: wrap;
 }
 
 .image{
@@ -72,6 +73,7 @@
     align-items: center; 
     justify-content: center;
     transform: translateX(82px);
+    max-width: 100%;
 }
 
 .footer{ 
