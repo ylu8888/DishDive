@@ -12,7 +12,7 @@ const Recipe = ({title, calories, image, ingred}) => {
             ))}
         </ul>
         <img className={style.image} src={image} alt=""/>
-        <p>Calories: {calories.toFixed(0)}g</p>
+        <p className={style.calories}>Calories: {calories.toFixed(0)}g</p>
         
 
     </div>

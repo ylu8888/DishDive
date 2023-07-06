@@ -15,10 +15,16 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
+    transform: translateY(-20px);
 }
 
 .ingred{
-    font-size: 19px;
+    font-size: 20px;
+    transform: translateY(-28px);
+}
+
+.calories{
+    transform: translateY(-14px);
 }
 
 .header{ /*DishDive*/
