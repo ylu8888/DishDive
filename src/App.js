@@ -1,5 +1,6 @@
 import React,{useEffect, useState} from "react";
 import Recipe from'./Recipe';
+import Title from './Title';
 import './App.css';
 
 const App = () => {
@@ -9,7 +10,7 @@ const App = () => {
 
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
-  const [query, setQuery] = useState('chicken');
+  const [query, setQuery] = useState("eggs");
 
   useEffect( () =>{
     getRecipes();   
@@ -38,8 +39,9 @@ const App = () => {
 
   return (
     <div className="App">
+      
       <form onSubmit={getSearch}className="searchform">
-        <input className="searchbar" type="text" value={search} onChange={updateSearch}/>
+        <input className="searchbar" type="text" value={search} placeholder = "Search for any dish!" onChange={updateSearch}/>
         <button className="searchbutton" type="submit">
         Search 🍳
         </button>

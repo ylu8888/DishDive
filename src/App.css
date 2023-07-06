@@ -1,5 +1,6 @@
 .App{
   min-height: 100vh;
+  font-family: Times New Roman;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
@@ -8,24 +9,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .searchbar{
-  width: 50%;
+  width: 450px;
+  height: 30px;
   border: none;
   padding: 10px;
+  font-size: 15px;
+  border-radius: 18px 0 0 18px;
+  border: 2px solid #f197dc;
+  
 }
 
 .searchbutton{
   background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
   border: none;
   padding: 10px 20px;
-  color: white;
+  color: black;
+  height: 53px;
+  border-radius: 0 18px 18px 0;
+  border: 2px solid #f197dc;
 }
+
+/*
+.searchbutton:disabled {
+  background-color: cyan; 
+}
+
+.searchbutton:not(:disabled):hover {
+  background-color: yellow;  
+  color: black; 
+}
+*/
 
 .recipes{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  font-size: 18px;
   
 }
