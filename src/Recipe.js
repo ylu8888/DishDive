@@ -8,7 +8,7 @@ const Recipe = ({title, calories, image, ingred}) => {
         <h1 className={style.title}>{title}</h1>
         <ul className={style.ingred}>
             {ingred.map(ingred =>(
-                <li>{ingred.text}</li>
+                <li className={style.listitem}>{ingred.text}</li>
             ))}
         </ul>
         <img className={style.image} src={image} alt=""/>
