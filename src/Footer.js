@@ -3,7 +3,10 @@ import style from './recipe.module.css';
 
 const Footer = () => {
     return(
-        <h1 id="thanks"> © 2023 Yang Lu: Thanks for checking out my website! :) </h1>
+        <div className={style.footer}>
+            <h4> © {new Date().getFullYear()} Yang Lu: Thanks for checking out my page! :) </h4>
+        </div>
+        
     );
 }
 

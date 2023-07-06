@@ -64,5 +64,15 @@
     transform: translateX(82px);
 }
 
+.footer{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    
+    margin: 0;
+    padding: 0;
+}
 
 
