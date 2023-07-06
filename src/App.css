@@ -14,12 +14,13 @@
 
 .searchbar{
   width: 450px;
-  height: 30px;
+  height: 25px;
   border: none;
   padding: 10px;
-  font-size: 15px;
+  font-size: 16px;
   border-radius: 18px 0 0 18px;
   border: 2px solid #f197dc;
+  text-align: center;
   
 }
 
@@ -28,21 +29,15 @@
   border: none;
   padding: 10px 20px;
   color: black;
-  height: 53px;
+  height: 48px;
   border-radius: 0 18px 18px 0;
   border: 2px solid #f197dc;
 }
 
-/*
-.searchbutton:disabled {
-  background-color: cyan; 
+button:hover {
+  background-color: #ac198a;
+  color: white;
 }
-
-.searchbutton:not(:disabled):hover {
-  background-color: yellow;  
-  color: black; 
-}
-*/
 
 .recipes{
   display: flex;
