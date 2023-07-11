@@ -10,6 +10,6 @@ Implemented asynchronous API calls (async/await) and Hooks (State/Effect) to cre
 
 Used ReactJS, HTML, Javascript (JSX), CSS modules & deployed to Netlify
 
-https://github.com/ylu8888/DishDive/assets/123523291/e3ae5484-ba7f-4c9e-a98f-edc293d78cdc
+https://github.com/ylu8888/DishDive/assets/123523291/9819288a-ec13-4413-8c16-0c51d7319cd6
 
 
