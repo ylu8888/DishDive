@@ -14,7 +14,8 @@ const App = () => {
   const [search, setSearch] = useState("");  //state to store user input from search bar, initially empty
   const [query, setQuery] = useState("Vanilla Sponge Cake");  //state to store the final input when onSearch
 
-  useEffect( () =>{ //activates on page load, useEffect hook is used to fetch recipes from API when query state changes
+  //[query] at the end of effect hooks are dependency arrays, that the effect depends on
+  useEffect( () =>{ // useEffect hook is activated to fetch recipes from API when query state value changes
     getRecipes();   
   }, [query]); 
 
